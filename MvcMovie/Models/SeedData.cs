@@ -15,6 +15,7 @@ namespace MvcMovie.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<MvcMovieContext>>()))
             {
+
                 // Look for any movies.
                 if (context.Movie.Any())
                 {
